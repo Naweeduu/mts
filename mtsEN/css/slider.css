@@ -1,0 +1,122 @@
+.swiper {
+	width: 100%;
+	height: 100%;
+  }
+
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	height: 691px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	padding-top: 94px;
+  }
+ 
+  .sw_bg .swiper-slide:nth-child(1){
+	
+	background: url(../img/slider1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .sw_bg .swiper-slide:nth-child(2){
+	
+	background: url(../img/slider2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .sw_bg .swiper-slide:nth-child(3){
+	
+	background: url(../img/slider3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .sw_bg .swiper-slide:nth-child(4){
+	
+	background: url(../img/slider4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .sw_bg .swiper-slide:nth-child(5){
+	
+	background: url(../img/slider5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+  .swip{
+	display: flex;
+    flex-direction: column;
+    height: 438px;
+    justify-content: space-between;
+  }
+  .swip h2{
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 120%;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	max-width: 950px;
+	text-align: left;
+  }
+  .swiper__text{
+	max-width: 600px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	color: #FFFFFF;
+	margin-top: 15px;
+	text-align: left;
+  }
+  .swiper__block{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 139px;
+  }
+  .swiper__block_content{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	padding-left: 34px;
+	background: #333333;
+	backdrop-filter: blur(2px);
+	border-radius: 20px;
+	max-width: 468px;
+    width: 35%;
+	text-align: left;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	letter-spacing: 0.8px;
+  }
+
+  .swiper-pagination-bullet{
+	width: 85px;
+	height: 4.2px;
+	background: #7F8084;
+	border-radius: 100px;
+	opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+	background: #F51C27;
+  }
+  
+  .swiper-pagination-horizontal{
+	bottom: 100px !important;
+  }
